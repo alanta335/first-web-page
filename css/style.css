@@ -11,6 +11,8 @@
     text-align: center;
 }
 
+.p {}
+
 @media (min-width: 992px) {
     .col-lg-4 {
         background-color: beige;
@@ -31,6 +33,15 @@
         padding-bottom: 30px;
         float: left;
         width: 50%;
+        height: 150px;
+    }
+    .col-md-1 {
+        background-color: beige;
+        position: relative;
+        border: 1px solid black;
+        padding-bottom: 30px;
+        float: left;
+        width: 100%;
         height: 150px;
     }
 }
