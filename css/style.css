@@ -4,7 +4,6 @@
 
 .box {
     margin-top: 2%;
-    width: 100%;
 }
 
 .h {
@@ -20,8 +19,9 @@
         border: 1px solid black;
         padding-bottom: 30px;
         float: left;
-        width: 33%;
+        width: 32%;
         height: 150px;
+        margin: 6px;
     }
 }
 
@@ -32,7 +32,8 @@
         border: 1px solid black;
         padding-bottom: 30px;
         float: left;
-        width: 50%;
+        width: 47%;
+        margin: 8px;
         height: 150px;
     }
     .col-md-1 {
@@ -41,8 +42,9 @@
         border: 1px solid black;
         padding-bottom: 30px;
         float: left;
-        width: 100%;
+        width: 96%;
         height: 150px;
+        margin: 8px;
     }
 }
 
@@ -51,10 +53,11 @@
         background-color: beige;
         position: relative;
         border: 1px solid black;
-        padding-bottom: 30px;
+        padding: 7px;
         float: left;
         width: 100%;
-        height: 150px;
+        height: 30%;
+        margin-bottom: 8px;
     }
 }
 
@@ -71,13 +74,14 @@
 }
 
 .pa {
-    padding-top: 40px;
+    padding: 31px;
     text-align: left;
 }
 
 .dh {
     position: absolute;
     right: 0;
+    top: 0;
     border: 1px solid black;
     width: 80px;
     height: 30px;
