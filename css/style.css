@@ -10,9 +10,7 @@
     text-align: center;
 }
 
-.p {
-    padding-left: 4px;
-}
+.p {}
 
 @media (min-width: 992px) {
     .col-lg-4 {
